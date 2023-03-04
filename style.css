@@ -1,0 +1,68 @@
+header {
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+body {
+    margin: 0;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    list-style: none;
+}
+
+main {
+    background-color: aliceblue;
+    background: linear-gradient(#FEFEFE, #888888);
+}
+
+.banner {
+    width: 100%;
+}
+
+footer {
+    background-image: url(https://angelicaalbuquerque.github.io/barbearia_alura/bg.jpg);
+    color: white;
+    text-align: center;
+}
+
+footer img {
+    margin: 0 auto;
+    display: block;
+}
+
+.corte {
+    width: 30%;
+margin: 10px;
+} 
+
+section {
+    text-align: center;
+}
+.terceirotexto{
+    font-size: 20px;
+}
+
+ol {
+    text-align: justify;
+}
+
+ol li {
+    list-style: none;
+}
+
+ol li::before {
+    content: '⭐';
+}
+.beneficios{
+display: flex;
+justify-content: center;
+}
